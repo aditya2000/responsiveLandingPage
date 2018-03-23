@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
+}
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.fa-wpexplorer {
+  color: #23ab;
+}
+.carousel-inner img {
+  height: 50%;
+  width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+   font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+}
+.jumbotron {
+  padding: 2rem;
+  border-radius: 0;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 90%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.landscape {
+  border: 5px solid #b4b4;
+  border-radius: 2px;
+}
+
+.landscape:hover{
+  opacity: 0.8;
+}
+.fa-credit-card {
+  color: #e54d26;
+}
+.fa-map-marker {
+  color: #563d7c;
+}
+.fa-globe {
+  color: #2163af;
+}
+.social a {
+  padding: 3.5rem;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-instagram {
+  color: #fb3958;
+}
+.fa-medium-m {
+  color: #00ab6c;
+}
+
+
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-medium-m:hover {
+  opacity: 0.6;
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+.footerIcon {
+  color: #d5d5d5;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  margin-top:  0.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+.social a{
+  font-size: 1rem;
+  padding: 2rem;
+}
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1{
+    top: 45%;
+    font-size: 300%;
+  }
+  .carousel-caption h3{
+    font-size: 150%;
+    padding-bottom: .5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-caption{
+
+  }
+  .carousel-caption h1{
+    top: 45%;
+    font-size: 300%;
+  }
+  .carousel-caption h3{
+    font-size: 100%;
+    padding-bottom: .5rem;
+  }
+  .display-4 {
+    font-size: 200%;
+  }
+  .liveLife{
+    text-align: center;
+  }
+}
